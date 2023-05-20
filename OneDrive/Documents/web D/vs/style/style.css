@@ -1,0 +1,53 @@
+h3{
+    color: blue;
+}
+p{
+    color: cadetblue;
+}
+.special{
+    color: beige;
+}
+li em{
+    color: blueviolet;
+}
+/*this for changing p tag just after h tag*/ h1+p{
+    font-size: medium;
+    color: chocolate;
+}
+
+ a:hover {
+    color: black;
+    text-decoration: dotted;
+    
+}
+body h1+p .special{
+    color: aqua;
+}
+ #heading {
+    color: brown;
+ }
+
+/* for navigation bar 
+nav a{
+    text decoration:none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left
+}; 
+    
+    nav{
+        background-color: black;
+        overflow: hidden;
+    }
+     
+    nav a:hover{
+        color: tomato;
+    }
+    nav a:visited{
+        color: royal blue;
+    }
+
+
+    table styling - css lecture 3 23min
+    */
